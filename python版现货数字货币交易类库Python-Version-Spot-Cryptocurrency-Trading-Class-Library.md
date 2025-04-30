@@ -5,7 +5,7 @@ python版现货数字货币交易类库Python-Version-Spot-Cryptocurrency-Tradin
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

@@ -5,7 +5,7 @@ python利用asyncio-http获取行情数据示范
 
 > Author
 
-诺宝
+恐龙宝宝
 
 > Strategy Description
 

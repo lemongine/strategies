@@ -5,7 +5,7 @@ OKEX-V5-WS接口账户持仓推送例子
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

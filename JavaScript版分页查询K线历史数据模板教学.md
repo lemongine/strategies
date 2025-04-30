@@ -5,7 +5,7 @@ JavaScript版分页查询K线历史数据模板教学
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

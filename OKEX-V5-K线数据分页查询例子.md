@@ -5,7 +5,7 @@ OKEX-V5-K线数据分页查询例子
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

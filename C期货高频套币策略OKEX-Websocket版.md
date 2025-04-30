@@ -5,7 +5,7 @@ C期货高频套币策略OKEX-Websocket版
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

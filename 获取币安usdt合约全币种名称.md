@@ -5,7 +5,7 @@
 
 > Author
 
-牛逼plus
+鑫
 
 > Strategy Description
 

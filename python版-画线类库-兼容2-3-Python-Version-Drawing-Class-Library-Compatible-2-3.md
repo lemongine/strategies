@@ -5,7 +5,7 @@ python版-画线类库-兼容2-3-Python-Version-Drawing-Class-Library-Compatible
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

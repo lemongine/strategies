@@ -5,7 +5,7 @@ Deribit期权Delta动态对冲策略教学
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

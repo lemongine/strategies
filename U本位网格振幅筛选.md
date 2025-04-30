@@ -85,13 +85,13 @@ function main() {
             exchange.SetCurrency(symbol);
             let records = exchange.GetRecords(PERIOD_D1);
             if (records.length < Day) {
-                Log(symbol, records.length);
+                Log(ele.baseAsset + Quote+".P", records.length);
                 continue; //只统计够天数的币种
             }
             let ampls = GetAmplitude(records.splice(-1 * (Day + 1), Day));
             // 
             table.rows.push([
-                symbol, //币种
+                ele.baseAsset + Quote+".P", //币种
                 ampls.day, //天数
                 _N(ampls.avgAmpl, 2), //平均振幅
                 _N(ampls.maxAmpl, 2), //最大振幅
@@ -117,4 +117,4 @@ https://www.fmz.com/strategy/364968
 
 > Last Modified
 
-2024-01-08 17:52:48
+2024-03-10 18:23:10

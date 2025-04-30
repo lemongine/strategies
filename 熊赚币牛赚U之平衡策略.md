@@ -25,9 +25,9 @@ VIC
 
 |Argument|Default|Description|
 |----|----|----|
-|pricePrecision|3|价格精度|
-|amountPrecision|2|下单精度|
-|linjie|15|临界价值|
+|pricePrecision|2|价格精度|
+|amountPrecision|3|下单精度|
+|linjie|30|临界价值|
 |leverage|10|杠杆初始|
 
 
@@ -38,7 +38,7 @@ VIC
 
 /*backtest
 start: 2019-12-01 00:00:00
-end: 2022-02-07 23:59:00
+end: 2024-02-07 23:59:00
 period: 30m
 basePeriod: 15m
 exchanges: [{"eid":"Futures_Binance","currency":"ETH_USDT","balance":100000}]
@@ -143,4 +143,4 @@ https://www.fmz.com/strategy/339698
 
 > Last Modified
 
-2022-02-09 20:08:54
+2024-03-06 11:15:26

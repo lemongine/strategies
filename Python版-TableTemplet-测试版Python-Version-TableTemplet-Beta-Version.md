@@ -5,7 +5,7 @@ Python版-TableTemplet-测试版Python-Version-TableTemplet-Beta-Version
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 
 

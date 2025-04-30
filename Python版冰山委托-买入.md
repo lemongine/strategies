@@ -5,7 +5,7 @@ Python版冰山委托-买入
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

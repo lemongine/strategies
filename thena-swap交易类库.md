@@ -5,7 +5,7 @@ thena-swap交易类库
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

@@ -18,8 +18,8 @@ https://www.fmz.com/digest-topic/5631
 
 |Argument|Default|Description|
 |----|----|----|
-|AccessKey|111|AccessKey|
-|SecretKey|222|SecretKey|
+|AccessKey|AccessKey|AccessKey|
+|SecretKey|SecretKey|SecretKey|
 
 
 > Source (javascript)
@@ -78,7 +78,7 @@ function md5(param) {
 //获取最终请求URL
 function getFinalUrl(param) {
     //Log(param)
-	return URL + "access_key=" + AccessKey + "&nonce=" + param.nonce + "&args=" + param.args + "&sign=" + param.sign + "&version=" + param.version + "&method=" + param.method;
+	return URL + "access_key=" + AccessKey + "&nonce=" + param.nonce + "&args=" + escape(param.args) + "&sign=" + param.sign + "&version=" + param.version + "&method=" + param.method;
 }
 
 //js中不支持...args的命名方式，所以改用arguments关键字获取参数数组
@@ -106,4 +106,4 @@ https://www.fmz.com/strategy/318271
 
 > Last Modified
 
-2022-09-09 20:04:34
+2024-06-01 18:40:01

@@ -5,7 +5,7 @@ RecordsCollecter-升级提供自定义数据源功能
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

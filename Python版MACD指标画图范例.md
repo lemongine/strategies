@@ -5,7 +5,7 @@ Python版MACD指标画图范例
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 
 

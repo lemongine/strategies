@@ -5,7 +5,7 @@
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 
@@ -21,8 +21,8 @@
 
 |Button|Default|Description|
 |----|----|----|
-|buy|true|买入|
-|sell|true|卖出|
+|buy|在图表上标记|买入|
+|sell|在图表上标记|卖出|
 
 
 > Source (javascript)
@@ -519,6 +519,7 @@ function main() {
         var tbl = {type : "table", title : "test", cols : ["test"], rows : []}
         tbl.rows.push([picture])
         LogStatus(_D(), "\n", "`" + JSON.stringify(tbl) + "`")
+        exchange.GetTicker()  // 测试
         Sleep(1000 * 2)
     }
 }
@@ -530,4 +531,4 @@ https://www.fmz.com/strategy/298823
 
 > Last Modified
 
-2021-08-08 23:18:34
+2024-11-28 20:42:46

@@ -5,7 +5,7 @@ stochRSI策略-指标框架
 
 > Author
 
-小小梦
+发明者量化-小小梦
 
 > Strategy Description
 

@@ -50,27 +50,20 @@ Remark: If you encounter undefined variables, it is proved that this attribute i
  ![IMG](https://www.fmz.com/upload/asset/114b4feedd1ae4f8550.png) 
 
 
-> Strategy Arguments
-
-
-
-|Argument|Default|Description|
-|----|----|----|
-|v_input_1|5|factor|
-|v_input_int_1|10|atrPeriod|
 
 
 > Source (PineScript)
 
 ``` pinescript
 /*backtest
-start: 2020-04-27 00:00:00
-end: 2022-04-26 23:59:00
+start: 2022-08-17 08:00:00
+end: 2024-08-29 08:00:00
 period: 1d
-basePeriod: 1h
-exchanges: [{"eid":"Bitfinex","currency":"BTC_USD"}]
+basePeriod: 1d
+exchanges: [{"eid":"Binance","currency":"BTC_USDT"}]
 */
-strategy("supertrend", overlay=true)
+
+strategy("supertrend", overlay=true, default_qty_type = strategy.percent_of_equity, default_qty_value = 50)
 
 [supertrend, direction] = ta.supertrend(input(5, "factor"), input.int(10, "atrPeriod"))
 
@@ -96,4 +89,4 @@ https://www.fmz.com/strategy/359806
 
 > Last Modified
 
-2022-06-20 10:03:33
+2024-08-30 18:24:36

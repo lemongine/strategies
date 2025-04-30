@@ -229,7 +229,13 @@ def ASI(OPEN,CLOSE,HIGH,LOW,M1=26,M2=10):            #振动升降指标
     X=(CLOSE-LC+(CLOSE-OPEN)/2+LC-REF(OPEN,1));
     SI=16*X/R*MAX(AA,BB);   ASI=SUM(SI,M1);   ASIT=MA(ASI,M2);
     return ASI,ASIT  
-    
+
+def VWAP(CLOSE,VOL,HIGH,LOW,N=14):                    #交易量加权平均价格
+    TYP = (HIGH + LOW + CLOSE)/3
+    VWAP = SUM(VOL*TYP, N) / SUM(VOL, N)
+    return VWAP
+
+
 ext.MACD = MACD 
 ext.KDJ = KDJ
 ext.RSI = RSI
@@ -256,6 +262,7 @@ ext.EXPMA = EXPMA
 ext.OBV = OBV
 ext.MFI = MFI
 ext.ASI = ASI
+ext.VWAP = VWAP
 ```
 
 > Detail
@@ -264,4 +271,4 @@ https://www.fmz.com/strategy/381042
 
 > Last Modified
 
-2022-09-03 19:09:52
+2024-04-09 19:55:31
